@@ -2,9 +2,9 @@ import React from 'react';
 
 import './BackDrop.css';
 
-function BackDrop(){
+function BackDrop(props){
     return(
-        <div className="backdrop" />
+        <div className="backdrop" onClick={props.click}/>
     );
 }
 
